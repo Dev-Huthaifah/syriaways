@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سوريا وايز | لخدمات الحج والعمرة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body dir="rtl">
+    <div class="landing">
+        <div class="navbar">
+            <a href="#"><h1 class="logo">سوريا وايز</h1></a>
+            <nav>
+                <a href="#">المميزات </a><a href="#">من نحن </a><a href="#">تواصل معنا </a>
+            </nav>
+        </div>
+        <div class="banner">
+            <div class="info">
+                <h1>خدمات الحج والعمرة ، <span id="element"></span></h1>
+                <p>مع سوريا وايز ، نوفر لك كل ما تحتاجه لرحلة حج أو عمرة ميسرة : استخراج التأشيرات، حجز الفنادق، النقل
+                    المريح على مدار الرحلة، فريقنا معك خطوة بخطوة لتعيش تجربة روحانية آمنة و مطمئنة.</p>
+                <button class="order-btn">احجز رحلتك الآن</button>
+                <button class="contact-btn">تواصل معنا</button>
+            </div>
+            <model-viewer class="mv" src="assets/kaaba.glb" shadow-intensity="1" camera-controls touch-action="pan-y" ar
+                auto-rotate rotation-per-second='30deg'>
+            </model-viewer>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
